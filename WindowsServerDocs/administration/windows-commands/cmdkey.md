@@ -38,7 +38,7 @@ cmdkey [{/add:<TargetName>|/generic:<TargetName>}] {/smartcard|/user:<UserName> 
 ## Remarks
 -   if more than one smart card is found on the system when the /smartcard command-line option is used, **cmdkey** will display information about all available smart cards and then prompt the user to specify which one to use.
 -   Passwords will not be displayed once they are stored.
-## <a name="BKMK_examples"></a>Examples
+## Examples
 To display a list of all user names and credentials that are stored, type:
 ```
 cmdkey /list
